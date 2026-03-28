@@ -2,6 +2,22 @@
 
 This repository contains the source code for a personal 3D portfolio built with React, TypeScript, Three.js, React Three Fiber, and GSAP. It includes animated page sections, a character scene, custom cursor interactions, and smooth transitions designed for a modern portfolio experience.
 
+Live site: [https://69c720932661202ce1c6558d--lively-zuccutto-3e62d1.netlify.app/](https://69c720932661202ce1c6558d--lively-zuccutto-3e62d1.netlify.app/)
+
+## Screenshots
+
+### Landing
+![Landing](public/images/preview-landing.png)
+
+### What I Do & Skills
+![What I Do](public/images/preview-about.png)
+
+### Education & Experience
+![Education & Experience](public/images/preview-work.png)
+
+### Contact
+![Contact](public/images/preview-contact.png)
+
 ## Table of Contents
 
 - [Features](#features)
