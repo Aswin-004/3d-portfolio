@@ -87,20 +87,21 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>BACKEND & ML</h3>
+              <h4>Scalable Systems & AI-Powered Tools</h4>
               <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                Building scalable backend systems and integrating machine learning
+                models into production workflows—from GNN-based vulnerability
+                detection to real-time data pipelines.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">Java</div>
+                <div className="what-tags">PyTorch Geometric</div>
+                <div className="what-tags">Flask &amp; Socket.IO</div>
+                <div className="what-tags">REST APIs</div>
+                <div className="what-tags">System Design</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -124,21 +125,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h3>SECURITY & DATA</h3>
+              <h4>Secure Code & Data Analytics</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                Static code analysis, vulnerability detection, and data-driven
+                insights—building tools that catch security flaws and turn raw
+                data into actionable intelligence.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">Graph Neural Networks</div>
+                <div className="what-tags">SQL &amp; NoSQL</div>
+                <div className="what-tags">Tableau</div>
+                <div className="what-tags">Static Analysis</div>
+                <div className="what-tags">CI/CD</div>
+                <div className="what-tags">Git &amp; GitHub</div>
               </div>
               <div className="what-arrow"></div>
             </div>

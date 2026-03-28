@@ -5,7 +5,7 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
+          My education <span>&</span>
           <br /> experience
         </h2>
         <div className="career-info">
@@ -15,58 +15,59 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>B.Tech in CSE</h4>
+                <h5>SRM Institute of Science and Technology</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2022–26</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Final-year Computer Science and Engineering student. CGPA: 7.2/10.0.
+              Relevant coursework: Data Structures & Algorithms, OOP, DBMS,
+              Operating Systems, Computer Networks, System Design.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>AI Vulnerability Detection</h4>
+                <h5>Academic Project</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Designed and trained a Graph Convolutional Network (GCN) to classify
+              Java code vulnerabilities including SQL Injection and XSS. Integrated
+              the model into Java runtime via DJL for live code scanning and CI/CD
+              pipeline integration.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Data Analytics</h4>
+                <h5>Deloitte Australia (Virtual)</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
+              Completed consulting-style data analysis tasks via Forage. Built
+              interactive Tableau dashboards to visualize KPIs and used Excel
+              for data classification, trend analysis, and business insights.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
+                <h4>Spotify Music Pipeline</h4>
+                <h5>Personal Project</h5>
               </div>
-              <h3>2013-16</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Built a full-stack real-time pipeline using Flask and Socket.IO
+              for automated Spotify playlist downloads. Engineered multi-source
+              fallback logic and reduced API overhead by 60%+ through intelligent
+              caching.
             </p>
           </div>
         </div>
