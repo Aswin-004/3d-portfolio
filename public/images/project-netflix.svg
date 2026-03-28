@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#141414"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e50914"/>
+      <stop offset="100%" style="stop-color:#ff4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)" rx="12"/>
+  
+  <!-- Netflix-style card rows -->
+  <!-- Row 1 -->
+  <rect x="60" y="100" width="130" height="80" rx="6" fill="#2a2a3e" opacity="0.8"/>
+  <rect x="200" y="100" width="130" height="80" rx="6" fill="#e50914" opacity="0.6"/>
+  <rect x="340" y="100" width="130" height="80" rx="6" fill="#2a2a3e" opacity="0.8"/>
+  <rect x="480" y="100" width="130" height="80" rx="6" fill="#2a2a3e" opacity="0.8"/>
+  <rect x="620" y="100" width="130" height="80" rx="6" fill="#2a2a3e" opacity="0.6"/>
+  
+  <!-- Row 2 - highlighted -->
+  <rect x="60" y="200" width="130" height="80" rx="6" fill="#2a2a3e" opacity="0.6"/>
+  <rect x="200" y="200" width="130" height="80" rx="6" fill="#2a2a3e" opacity="0.8"/>
+  <rect x="340" y="190" width="140" height="100" rx="8" fill="#e50914" opacity="0.8" stroke="#fff" stroke-width="2" stroke-opacity="0.3"/>
+  <rect x="480" y="200" width="130" height="80" rx="6" fill="#2a2a3e" opacity="0.8"/>
+  <rect x="620" y="200" width="130" height="80" rx="6" fill="#2a2a3e" opacity="0.6"/>
+  
+  <!-- Play icon on highlighted card -->
+  <circle cx="410" cy="240" r="18" fill="rgba(0,0,0,0.5)" stroke="white" stroke-width="2" opacity="0.8"/>
+  <polygon points="404,230 404,250 422,240" fill="white" opacity="0.9"/>
+  
+  <!-- Row 3 -->
+  <rect x="60" y="310" width="130" height="80" rx="6" fill="#2a2a3e" opacity="0.8"/>
+  <rect x="200" y="310" width="130" height="80" rx="6" fill="#2a2a3e" opacity="0.8"/>
+  <rect x="340" y="310" width="130" height="80" rx="6" fill="#2a2a3e" opacity="0.8"/>
+  <rect x="480" y="310" width="130" height="80" rx="6" fill="#e50914" opacity="0.5"/>
+  <rect x="620" y="310" width="130" height="80" rx="6" fill="#2a2a3e" opacity="0.6"/>
+  
+  <!-- Category labels -->
+  <text x="70" y="90" fill="white" font-family="system-ui, sans-serif" font-size="13" font-weight="600" opacity="0.7">Trending Now</text>
+  <text x="70" y="195" fill="white" font-family="system-ui, sans-serif" font-size="13" font-weight="600" opacity="0.7">My Portfolio</text>
+  <text x="70" y="305" fill="white" font-family="system-ui, sans-serif" font-size="13" font-weight="600" opacity="0.7">Projects</text>
+  
+  <!-- Shimmer effects on some cards -->
+  <rect x="65" y="110" width="40" height="6" rx="3" fill="#444" opacity="0.5"/>
+  <rect x="65" y="122" width="80" height="4" rx="2" fill="#333" opacity="0.4"/>
+  <rect x="65" y="150" width="60" height="4" rx="2" fill="#333" opacity="0.3"/>
+  
+  <rect x="485" y="215" width="50" height="6" rx="3" fill="#444" opacity="0.5"/>
+  <rect x="485" y="227" width="90" height="4" rx="2" fill="#333" opacity="0.4"/>
+  <rect x="485" y="255" width="70" height="4" rx="2" fill="#333" opacity="0.3"/>
+  
+  <!-- Text -->
+  <text x="400" y="440" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" letter-spacing="1">Netflix Portfolio UI</text>
+  <text x="400" y="470" text-anchor="middle" fill="#a0a0b0" font-family="system-ui, sans-serif" font-size="14" letter-spacing="2">HTML  •  CSS  •  JAVASCRIPT  •  VERCEL</text>
+</svg>

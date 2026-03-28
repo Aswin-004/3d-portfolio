@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29"/>
+      <stop offset="50%" style="stop-color:#302b63"/>
+      <stop offset="100%" style="stop-color:#24243e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00f2fe"/>
+      <stop offset="100%" style="stop-color:#4facfe"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)" rx="12"/>
+  
+  <!-- Graph nodes -->
+  <circle cx="300" cy="150" r="18" fill="none" stroke="#4facfe" stroke-width="2" opacity="0.6"/>
+  <circle cx="400" cy="100" r="14" fill="none" stroke="#00f2fe" stroke-width="2" opacity="0.5"/>
+  <circle cx="500" cy="160" r="20" fill="none" stroke="#4facfe" stroke-width="2" opacity="0.7"/>
+  <circle cx="350" cy="250" r="16" fill="none" stroke="#00f2fe" stroke-width="2" opacity="0.4"/>
+  <circle cx="460" cy="230" r="12" fill="none" stroke="#4facfe" stroke-width="2" opacity="0.5"/>
+  <circle cx="550" cy="280" r="15" fill="none" stroke="#00f2fe" stroke-width="2" opacity="0.6"/>
+  <circle cx="250" cy="280" r="10" fill="none" stroke="#4facfe" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Graph edges -->
+  <line x1="300" y1="150" x2="400" y2="100" stroke="#4facfe" stroke-width="1" opacity="0.3"/>
+  <line x1="400" y1="100" x2="500" y2="160" stroke="#00f2fe" stroke-width="1" opacity="0.3"/>
+  <line x1="300" y1="150" x2="350" y2="250" stroke="#4facfe" stroke-width="1" opacity="0.25"/>
+  <line x1="350" y1="250" x2="460" y2="230" stroke="#00f2fe" stroke-width="1" opacity="0.3"/>
+  <line x1="460" y1="230" x2="500" y2="160" stroke="#4facfe" stroke-width="1" opacity="0.25"/>
+  <line x1="460" y1="230" x2="550" y2="280" stroke="#00f2fe" stroke-width="1" opacity="0.3"/>
+  <line x1="250" y1="280" x2="300" y2="150" stroke="#4facfe" stroke-width="1" opacity="0.2"/>
+  <line x1="250" y1="280" x2="350" y2="250" stroke="#00f2fe" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Node fills -->
+  <circle cx="300" cy="150" r="6" fill="#4facfe" opacity="0.8"/>
+  <circle cx="400" cy="100" r="5" fill="#00f2fe" opacity="0.7"/>
+  <circle cx="500" cy="160" r="7" fill="#ff4757" opacity="0.9"/>
+  <circle cx="350" cy="250" r="5" fill="#4facfe" opacity="0.6"/>
+  <circle cx="460" cy="230" r="4" fill="#00f2fe" opacity="0.7"/>
+  <circle cx="550" cy="280" r="6" fill="#ff4757" opacity="0.8"/>
+  <circle cx="250" cy="280" r="4" fill="#4facfe" opacity="0.5"/>
+
+  <!-- Shield icon -->
+  <path d="M400 310 L400 310 L370 325 L370 365 Q370 390 400 405 Q430 390 430 365 L430 325 Z" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.8"/>
+  <path d="M392 355 L400 363 L415 345" fill="none" stroke="#00f2fe" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  
+  <!-- Text -->
+  <text x="400" y="445" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" letter-spacing="1">AI Vulnerability Detection</text>
+  <text x="400" y="475" text-anchor="middle" fill="#a0a0b0" font-family="system-ui, sans-serif" font-size="14" letter-spacing="2">PYTHON  •  PYTORCH GEOMETRIC  •  GCN</text>
+</svg>
